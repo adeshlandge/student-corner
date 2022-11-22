@@ -79,6 +79,21 @@
 </details>
 
 
+<!-- Features to be built -->
+## Features to be built
+1. Register
+2. Login
+3. Logout
+4. User profile view
+5. Create posts
+6. Delete posts
+7. Edit posts
+8. Like/Dislike posts
+9. Share posts
+10. Create groups/Communities.
+11. File upload and display with download option.
+
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
