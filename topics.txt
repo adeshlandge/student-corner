@@ -1,0 +1,51 @@
+@ECHO off
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic register_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic login_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic list_files_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic shared_files_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic upload_files_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic setuploadpath_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic getUserDetails_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic makeDirectory_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic starFile_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic addMembers_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic groupShareFileUpload_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic listGroupMembers_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic listGroupFiles_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic saveDirectory_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic logout_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic insertShareDetails_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic creategroup_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic listGroups_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic getUserDetails_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic login_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic register_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic logout_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic list_files_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic shared_files_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic upload_files_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic setuploadpath_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic getUserDetails_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic insertShareDetails_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic makeDirectory_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic saveDirectory_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic starFile_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic creategroup_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic addMembers_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic groupShareFileUpload_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic listGroups_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic listGroupFiles_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic listGroupMembers_response
+
+
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic createPost_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic createPost_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic listPost_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic listPost_response
+
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic fetchPost_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic fetchPost_response
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic deletePost_request
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic deletePost_response
+
+
